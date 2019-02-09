@@ -1,0 +1,62 @@
+/* General page settings 
+------------------------ */
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 16px 'Raleway', Arial, sans-serif;
+}
+
+/* My header settings
+--------------------- */
+header {
+  display: table;
+  width: 100%;
+}
+
+.home {
+  background-color: #8E44AD;
+  height: 100vh;
+}
+
+/* Navigation menu styling 
+-------------------------- */
+#menu {
+  float: right;
+  padding: 10px;
+  margin: 10px;
+}
+#menu ul {
+  list-style: none;
+}
+
+#menu li {
+  display: table-cell;
+  padding: 5px;
+}
+
+#menu a {
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Styling of the main title 
+---------------------------- */
+.content {
+  display: table-row;
+  vertical-align: middle;
+  padding: 7%;
+}
+
+h1 {
+  font-size: 14rem;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
