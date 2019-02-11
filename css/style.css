@@ -19,10 +19,15 @@ header {
 }
 
 .home {
-  background-color: #8E44AD;
   height: 100vh;
+  background: url("../img/kodaline-band.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  
 }
-
+.home:hover {
+  
+}
 /* Navigation menu styling 
 -------------------------- */
 #menu {
@@ -40,7 +45,7 @@ header {
 }
 
 #menu a {
-  color: #fff;
+  color: #000;
   font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
@@ -54,9 +59,11 @@ header {
   padding: 7%;
 }
 
-h1 {
-  font-size: 14rem;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
+.content #logo {
+  position: absolute;
+  left: 22%;
+  right: 50%;
+  top: auto;
+  bottom: auto;
+  width: 60%;
 }
