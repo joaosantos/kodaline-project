@@ -33,7 +33,7 @@ header {
   background-color: #a0a5ae;
 }
 
-header img { width: 120px; margin-top: 5px;}
+header img { width: 100px; margin-top: 5px;}
 nav ul { display: flex; }
 header li a { 
   font-family: 'Norwester', sans-serif;
@@ -58,7 +58,42 @@ header li a {
   text-align: center;
 }
 
-img {
+.hero img {
   width: 550px;
   margin-top: 80px;
+}
+@media (max-width: 700px) {
+  .hero img { width: 400px; }
+}
+
+/* STORY
+-------- */
+
+.story {
+  display: flex;
+  flex-direction: column;
+  padding: 100px; 
+}
+
+.story h3 {
+  display: flex;
+  justify-content: center;
+  margin: -50px auto 20px auto;
+  font-family: 'Norwester', sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.story p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: justify;
+}
+@media (max-width: 700px) {
+  .story p { 
+    max-width: 350px;
+    line-height: 35px;
+  }
 }
