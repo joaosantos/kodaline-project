@@ -58,6 +58,7 @@ header li a {
   text-align: center;
 }
 
-.hero img {
-  width: 600px;
+img {
+  width: 550px;
+  margin-top: 80px;
 }
